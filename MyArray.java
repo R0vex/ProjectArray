@@ -37,5 +37,9 @@ public class MyArray {
             i--;
         }while (i>=0);
         System.out.println("");
+
+        for(int value:arr)
+            if (value/2==0)
+                System.out.println(value+ "");
     }
 }
