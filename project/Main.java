@@ -18,7 +18,7 @@ public class Main {
         System.out.println(array.getItem(2));
         array.sort(false);
         System.out.println(array.toString());
-
-
+        array.reverse();
+        System.out.println(array.toString());
     }
 }
